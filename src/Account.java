@@ -15,4 +15,22 @@ public class Account {
     public double getBalance() {
         return balance;
     }
+        // Sätter in pengar på kontot
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance = balance + amount;
+        }
+    }
+
+    // Tar ut pengar om det finns tillräckligt på kontot
+    public boolean withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance = balance - amount;
+            return true;
+        }
+
+        System.out.println("Det finns inte tillräckligt med pengar på kontot.");
+        return false;
+    }
 }
+    
