@@ -2,7 +2,8 @@
 import java.util.Scanner;
 
 public class Main {
-
+    
+    // Programmets startpunkt. Här startas menyn och användarens val hanteras.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         AccountRegister register = new AccountRegister();
