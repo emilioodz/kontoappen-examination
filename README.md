@@ -33,3 +33,5 @@ Jag har använt kursmaterial och AI som stöd när jag kört fast och försökt 
 Det som hjälpte mig mest var att dela upp arbetet i mindre delar och ta en sak i taget.
 
 Jag har också lärt mig mer om metoder, klasser, listor och hur man använder GitHub för att spara olika versioner av sitt arbete.
+
+Ett exempel var när jag behövde förstå hur Main kunde använda metoder från Account och AccountRegister. Jag använde AI för att få förklaringar och exempel, och gick sedan igenom koden för att förstå hur klasserna samarbetade.
