@@ -2,16 +2,17 @@ public class Account {
 
     private String owner;
     private double balance;
-
+    
+    // Skapar ett nytt konto med ägarens namn och ett startsaldo
     public Account(String owner, double balance) {
         this.owner = owner;
         this.balance = balance;
-    }
-
+    }   
+    // Returnerar namnet på kontots ägare
     public String getOwner() {
         return owner;
     }
-
+    // Returnerar kontots aktuella saldo
     public double getBalance() {
         return balance;
     }
